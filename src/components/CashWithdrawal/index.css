@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.app {
+  background-color: azure;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: darkslateblue;
+  height: 600px;
+  width: 550px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.name {
+  margin-left: 20px;
+  color: aliceblue;
+}
+.profile-card {
+  display: flex;
+}
+.profile {
+  height: 70px;
+  width: 70px;
+  border-radius: 40px;
+  background-color: azure;
+  padding-top: 5px;
+  padding: 3px;
+  padding-bottom: 5px;
+}
+.profileName {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.balance {
+  display: flex;
+  justify-content: space-between;
+}
+.headingBalance {
+  color: antiquewhite;
+}
+.amount {
+  color: antiquewhite;
+  font-size: 25px;
+}
+.denomination-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.heading {
+  color: beige;
+  font-family: Times New Roman;
+  font-size: 25px;
+}
+
+.rupees {
+  color: antiquewhite;
+  font-size: 20px;
+}

@@ -1,0 +1,21 @@
+/* Write your CSS here */
+
+.list_con {
+  list-style-type: none;
+  display: flex;
+  margin: 20px;
+  flex-direction: row;
+}
+
+.valueCard {
+  height: 60px;
+  width: 150px;
+  background-color: rgb(56, 56, 92);
+  border-radius: 10px;
+  padding-left: 0px;
+}
+.value {
+  color: darkcyan;
+  font-size: 25px;
+  text-align: center;
+}
